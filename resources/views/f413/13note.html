@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+svaca.713
+
+		falta select dinamicos
+		agregar los codigos telefonicos del pais , g, esto va en la db
+
+		---roles de usuarios
+		---estados, municipios, parroquias
+
+		FLOR
+
+		seguimiento cada 3 meses
+
+		condicionar fechass
+
+		subir archivos
+
+
+///////////////
+diccionario de ingles con pronunciacion
+preferiblemente con audio
+///////
+
+
+// query traer 
+select *, responsables.email
+from instituciones 
+left join responsables ON institucion_id=instituciones.id
+where responsables.institucion_id = 1;
+
+
+
+
+
+///////////////////////////
+mensaje para mostrar y cerrar
+
+      <div class="alert alert-dismissible alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Lista de seguimientos realizado a la institución!</strong> si desea puede verloz en detalle o
+        <a href={{asset("/seguimiento/agregar")}}></a>.
+      </div>
+///////////////////////////
+
+</body>
+</html>
+
+
+
+
